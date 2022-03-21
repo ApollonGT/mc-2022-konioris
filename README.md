@@ -1,17 +1,27 @@
-<div style="text-align: center; margin-bottom: 20px;">
-    <img src="./img/logo_small.png">
-    <img src="./img/derby.png">
-    <h2>Mediterranean College | University of Derby</h2>
-    <h3>MSc Big Data Analysis</h3>
-</div>
+![](./img/logo_small.png)
+![](./img/derby.png)
 
-### Project: Master Thesis
+## Mediterranean College | University of Derby
+### MSc Big Data Analysis
 
-### Student: Angelos Konioris
-
-Spring 2022
-
-## Topic: *Data driven design of the next Google Play Store app*
+<table>
+    <tr>
+        <th>Project</th>
+        <td>Master Thesis</td>
+    </tr>
+    <tr>
+        <th>Topic</th>
+        <td><em>Data driven design of the next Google Play Store app</em></td>
+    </tr>
+    <tr>
+        <th>Student</th>
+        <td>Angelos Konioris</td>
+    </tr>
+    <tr>
+        <th>Period</th>
+        <td>Spring 2022</td>
+    </tr>
+</table>
 
 Data Source: --link--
 
