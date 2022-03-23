@@ -23,7 +23,34 @@
     </tr>
 </table>
 
-Data Source: --link--
+Data Source: https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
+
+Data description: This dataset contains Application data of more than 2.3 million applications with the following 24 attributes
+
+App Name
+App Id
+Category
+Rating
+Rating Count
+Installs
+Minimum Installs
+Maximum Installs
+Free
+Price
+Currency
+Size
+Minimum Android
+Developer Id
+Developer Website
+Developer Email
+Released
+Privacy Policy
+Last Updated
+Content Rating
+Ad Supported
+In app purchases
+Editor Choice
+Scrapped Time
 
 **Summary**
 
