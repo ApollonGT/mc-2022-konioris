@@ -3,6 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
 df = pd.read_csv('Google-Playstore.csv')
 df['Category'] = df['Category'].str.replace('Music & Audio', 'Music')
 df['Category'] = df['Category'].str.replace('Educational', 'Education')
