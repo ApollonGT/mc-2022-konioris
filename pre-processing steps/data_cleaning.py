@@ -2,8 +2,6 @@
 
 import pandas as pd
 import missingno as msno 
-import warnings
-warnings.filterwarnings('ignore')
 
 # Importing the dataset 
 
