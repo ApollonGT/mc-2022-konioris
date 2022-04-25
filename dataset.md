@@ -1,4 +1,6 @@
  The dataset is called Google Play Store Apps and it contains 2312944 rows and 24 columns without pre-processing!
+ 
+ # Sections
 
 - [Description](#description)
 - [Usage](#usage)
