@@ -1,6 +1,6 @@
-# In this document we will write down the phases of this project!
+In this document we will write down the phases of this project!
 
-## Sections
+# Sections
 
 - [Logging](#Logging)
 - [Loading](#Loading)
