@@ -1,5 +1,5 @@
 This file contains information about the columns that are utilised for the scope of our analysis.
-There are 17 columns that are utilised!
+There are 17 columns that are utilised, after processing the dataset!
 
 # Columns
 
