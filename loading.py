@@ -7,7 +7,7 @@ from log import logger
 # Importing the dataset 
 
 df = pd.read_csv('Google-Playstore.csv')
-logger.error(df.head())
+logger.info(df.head())
 
 # Getting information about the columns and the shape of our data
 
