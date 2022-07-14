@@ -15,7 +15,7 @@ App Name, App Id, Category, Rating, Rating Count, Installs, Minimum Installs, Ma
 
 ## Usage 
 
-It is a big database for students and researchers
+It is a big database for students and researchers to apply several algorithms ann gain actionable insights regarding the apps on Goole Play Store.
 
 ## Format
 
