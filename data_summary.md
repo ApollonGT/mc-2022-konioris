@@ -1,5 +1,5 @@
 This file contains information about the columns that are utilised for the scope of our analysis.
-There are 17 columns that are utilised, after processing the dataset!
+There are 16 columns that are utilised, after processing the dataset!
 
 # Columns
 
@@ -7,8 +7,7 @@ There are 17 columns that are utilised, after processing the dataset!
 - [category](#category)
 - [rating](#rating)
 - [rating_count](#rating_count)
-- [minimum_installs](#minimum_installs)
-- [maximum_installs](#maximum_installs)
+- [installs](#installs)
 - [free](#free)
 - [price](#price)
 - [currency](#currency)
@@ -57,25 +56,15 @@ This variable is numerical
 + Median Value: 6
 + Max Value: 138.557.600
 
-## minimum_installs
+## installs
 This variable is numerical
 
 + Missing Values: 107
-+ Average Value: 183.445
-+ Standard Deviation: 15.131.440
++ Average Value: 251.836
++ Standard Deviation: 19.130.130
 + Min Value: 0
-+ Median Value: 500
-+ Max Value: 10.000.000.000
-
-## maximum_installs
-This variable is numerical
-
-+ Missing Values: 0
-+ Average Value: 320.202
-+ Standard Deviation: 23.554.950
-+ Min Value: 0
-+ Median Value: 695
-+ Max Value: 12.057.630.000
++ Median Value: 597,5
++ Max Value: 11.028.810.000
 
 ## free
 This variable is boolean
