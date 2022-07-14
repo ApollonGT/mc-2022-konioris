@@ -8,6 +8,7 @@ In this document we will write down the phases of this project!
 - [PreProcessing](#PreProcessing)
 - [Models Selection](#Model-Selection)
 - [Models Deployment](#Model-Deployment)
+- [Optimization Techniques](#Optimization-Techniques)
 
 
 
@@ -24,8 +25,11 @@ This section is called Exploratory Data Analysis. We create some plots to have a
 This phase encaplulates all the pre-processing steps that are needed for this project such as one-hot encoding techinque for categorical data, feature scaling and data spliting into train and test set.
 
 ## Models Selection
-In this phase..
+In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on clustering and regression algoritmhs.
 
 ## Models Deployment
-In this section..
+This section provides the models which had the best performance from the previous step. We utlise the following machine learingn algorithms: K-means, RandomForest and XGB.
+
+## Optimization Techniques
+This is the last phase of our analysis, in which we apply some optimization techniques for better performance in terms of computational time.
 
