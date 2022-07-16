@@ -16,7 +16,7 @@ In this document we will write down the phases of this project!
 In this phase we create a logging mechanism using the python built in logging module in order to log into a file possible errors, warnings or information. 
 
 ## Loading
-This is the first phase of our project in which we include all the steps regarding the import of our data. Firsly, we read the csv file from the Kaggle source and then we apply some data cleaning techniques to prepare the data for the next steps (validation checks, errors, inconsistencies, handling missing data).
+This is the first phase of our project in which we include all the steps regarding the import of our data. Firsly, we read the csv file from the Kaggle source and then we apply some data cleaning techniques (validation checks, errors, inconsistencies, handling missing data) to prepare the data for the next steps.
 
 ## EDA
 This section is called Exploratory Data Analysis. We create some plots to have a deeper understanding of the distribution of our data in both categorical and numeircal features.
