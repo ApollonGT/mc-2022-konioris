@@ -74,4 +74,3 @@ This dataset can be found in Kaggle in the link below:
 [key]: https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps
 
 [Google Play Store Apps][key]
-
