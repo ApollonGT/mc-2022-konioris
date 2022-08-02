@@ -157,5 +157,3 @@ This variable is a date-time one
 + Min Value: 15/6/2021
 + Median Value: 16/6/2021
 + Max Value: 16/6/2021
-
-
