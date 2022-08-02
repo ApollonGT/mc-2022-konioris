@@ -1,0 +1,23 @@
+2022-08-03 01:30:25,397 - log - INFO - Execution time of load_data function is: 74.48450350761414 seconds
+2022-08-03 01:31:13,672 - log - INFO - Execution time of preprocessing function is: 48.27505564689636 seconds
+2022-08-03 01:42:22,606 - log - INFO - Results of models' function are: 
+                         LinearRegression  Ridge  DecisionTreeRegressor  RandomForestRegressor
+Accuracy                             0.05   0.05                   0.91                   0.95
+Mean Absolute Error                  0.39   0.39                   0.07                   0.05
+Mean Squared Error                   0.17   0.17                   0.02                   0.01
+Root Mean Squared Error              0.41   0.41                   0.13                   0.09
+2022-08-03 01:42:22,613 - log - INFO - Execution time of models' function is: 661.3271498680115 seconds
+2022-08-03 01:49:36,918 - log - INFO - Result of best_model's function is: 
+                         RandomForestRegressor
+Accuracy                                  0.95
+Mean Absolute Error                       0.05
+Mean Squared Error                        0.01
+Root Mean Squared Error                   0.10
+2022-08-03 01:49:36,922 - log - INFO - Execution time of best_model's function is: 433.52874875068665 seconds
+2022-08-03 01:51:15,042 - log - INFO - Result of best_model's optimization function is: 
+                         XGBRegressor
+Accuracy                         0.95
+Mean Absolute Error              0.05
+Mean Squared Error               0.01
+Root Mean Squared Error          0.10
+2022-08-03 01:51:15,042 - log - INFO - Execution time of best_model's optimization function is: 97.51722240447998 seconds
