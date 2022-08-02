@@ -7,9 +7,8 @@ In this document we will write down the phases of this project!
 - [EDA](#EDA)
 - [PreProcessing](#PreProcessing)
 - [Models Selection](#Model-Selection)
-- [Models Deployment](#Model-Deployment)
+- [Model Deployment](#Model-Deployment)
 - [Optimization Techniques](#Optimization-Techniques)
-
 
 
 ## Logging
@@ -27,9 +26,8 @@ This phase encaplulates all the pre-processing steps that are needed for this pr
 ## Models Selection
 In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on clustering and regression algoritmhs.
 
-## Models Deployment
+## Model Deployment
 This section provides the models which had the best performance from the previous step. We utlise the following machine learingn algorithms: K-means, RandomForest and XGB.
 
 ## Optimization Techniques
 In the last step, we apply some optimization techniques using numpy library and profiling to optimize our analysis in terms of computational time without decreasing the accuracy of the models.
-
