@@ -37,4 +37,4 @@ Over the last few years, android has been in the top choices in the operating to
 
 This work provides a deep exploration of the aforementioned features, so the developers will predict whether a certain application can be successful and the reason of it. For all the work of this project we use Python as a Programing language and we focus on optimization techniques to provide the results in the best way possible in terms of accuracy and computation time.
 
-In the main.py file you can find all the functions utilised in this project along with a parser that selects the model of the model selction module!
+The main.py file encapsulates all the functions utilised in this project along with a parser that selects the model of the models selction module!
