@@ -12,6 +12,15 @@ from plotting_tools import topcat
 
 ## Univariate
 
+### Top 10 Categories based on the Number of Apps
+```python
+fig, ax = plt.subplots(figsize = [15, 8])
+sns.countplot(x = 'category', data = topcat, palette = 'rainbow')
+ax.set(title = 'Top 10 Categories based on the Number of Apps',
+       xlabel ='Category', ylabel = 'Count')
+ax.set_xticklabels(ax.get_xticklabels(), rotation = 10)
+plt.savefig('eda/univariate/Top 10 Categories based on the Number of Apps.png')
+```
 ### Distribution of Free Fature
 ```python
 plt.figure(figsize = (15, 8))
@@ -61,15 +70,6 @@ plt.xlabel('Price')
 plt.xlim(0, 125)
 plt.title('Price of the Apps')
 plt.savefig('eda/univariate/Price of the Apps.png')
-```
-### Top 10 Categories based on the Number of Apps
-```python
-fig, ax = plt.subplots(figsize = [15, 8])
-sns.countplot(x = 'category', data = topcat, palette = 'rainbow')
-ax.set(title = 'Top 10 Categories based on the Number of Apps',
-       xlabel ='Category', ylabel = 'Count')
-ax.set_xticklabels(ax.get_xticklabels(), rotation = 10)
-plt.savefig('eda/univariate/Top 10 Categories based on the Number of Apps.png')
 ```
 
 ## Bivariate
