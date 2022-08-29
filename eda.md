@@ -14,6 +14,7 @@ from plotting_tools import topcat
 
 ### Top 10 Categories based on the Number of Apps
 ```python
+plt.style.use("fivethirtyeight")
 fig, ax = plt.subplots(figsize = [15, 8])
 sns.countplot(x = 'category', data = topcat, palette = 'rainbow')
 ax.set(title = 'Top 10 Categories based on the Number of Apps',
