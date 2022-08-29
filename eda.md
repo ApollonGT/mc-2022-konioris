@@ -108,7 +108,7 @@ plt.savefig('eda/bivariate/Comparison of Size Among the Categories.png')
 fig, ax = plt.subplots(figsize = [15, 8])
 sns.barplot(x = 'category', y ='rating_count', data = topcat, palette = 'rainbow')
 ax.set(title = 'Comparison of the Number of Ratings Among the Categories',
-       xlabel ='', ylabel = 'Size (MB)')
+       xlabel ='', ylabel = 'Rating Count')
 ax.set_xticklabels(ax.get_xticklabels(), rotation = 10)
 plt.savefig('eda/bivariate/Comparison of the Number of Ratings Among the Categories.png')
 ```
