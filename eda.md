@@ -65,9 +65,10 @@ plt.savefig('eda/univariate/Rating of the Apps.png')
 ```python
 price_df = topcat[topcat["free"] == False]
 plt.figure(figsize = (15, 8))
-sns.distplot(a = price_df['price'], hist = False)
+plt.hist(price_df['price'], 500)
 plt.xlabel('Price')
-plt.xlim(0, 125)
+plt.ylabel('Count')
+plt.xlim(0, 35)
 plt.title('Price of the Apps')
 plt.savefig('eda/univariate/Price of the Apps.png')
 ```
