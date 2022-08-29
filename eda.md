@@ -76,14 +76,14 @@ plt.savefig('eda/univariate/Price of the Apps.png')
 
 ## Bivariate
 
-### Price vs Installs
+### Rating vs Installs
 ```python
 plt.figure(figsize = [15, 8])
 sns.lineplot(data = topcat, x = 'rating', y = 'installs')
-plt.xlabel('Price')
+plt.xlabel('Rating')
 plt.ylabel('Installs')
-plt.title('Price vs Installs')
-plt.savefig('eda/bivariate/Price vs Installs.png')
+plt.title('Rating vs Installs')
+plt.savefig('eda/bivariate/Rating vs Installs.png')
 ```
 ### Comparison of Installs Among the Categories
 ```python
