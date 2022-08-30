@@ -4,7 +4,7 @@ import seaborn as sns
 from plotting_tools import pca_df
 ```
 
-# This phase presents the analysis that have been made on the features of our data based on the results of the Principal Component Analysis and the K-means Clustering algorithms
+# This phase presents the analysis that has been made on the features of our data based on the results of the Principal Component Analysis and the K-means Clustering algorithms
 
 - [Clusters by PCA Components](#Clusters-by-PCA-Components)
 - [Comparison of Clusters Based on Installs](#Comparison-of-Clusters-Based-on-Installs)
