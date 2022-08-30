@@ -39,6 +39,7 @@ for k in range(1, 11):
 plt.figure(figsize = (15, 8))
 plt.plot(range(1, 11), sse)
 plt.xticks(range(1, 11))
+plt.title('Distribution of Clusters based on SSE')
 plt.xlabel("Number of Clusters")
 plt.ylabel("SSE")
 plt.savefig('pca_clustering_plots/Distribution of Clusters based on SSE')
