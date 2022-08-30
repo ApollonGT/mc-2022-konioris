@@ -6,6 +6,7 @@ In this document we will write down the phases of this project!
 - [Loading](#Loading)
 - [EDA](#EDA)
 - [PreProcessing](#PreProcessing)
+- [Dimensionality Reduction](#Dimensionality-reduction)
 - [Models Selection](#Model-Selection)
 - [Model Deployment](#Model-Deployment)
 - [Optimization Techniques](#Optimization-Techniques)
@@ -23,11 +24,14 @@ This section is called Exploratory Data Analysis. We create some plots to have a
 ## PreProcessing
 This phase encaplulates all the pre-processing steps that are needed for this project such as one-hot encoding techinque for categorical data, feature scaling and data spliting into train and test set.
 
+## Dimensionality Reduction
+This phase provides some unsupervised learning algorithms such as PCA and K-means. In this phase we also create some plots to have a crystal-clear point of what these algorithms can do to our data.
+
 ## Models Selection
-In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on clustering and regression algoritmhs.
+In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on supervised learning with regression algoritmhs.
 
 ## Model Deployment
-This section provides the models which had the best performance from the previous step. We utlise the following machine learingn algorithms: K-means, RandomForest and XGB.
+This section provides the models which had the best performance from the previous step. We utlise the following machine learingn algorithms: RandomForest and XGB.
 
 ## Optimization Techniques
 In the last step, we apply some optimization techniques using numpy library and profiling to optimize our analysis in terms of computational time without decreasing the accuracy of the models.
