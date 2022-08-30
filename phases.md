@@ -25,10 +25,10 @@ This section is called Exploratory Data Analysis. We create some plots to have a
 This phase encaplulates all the pre-processing steps that are needed for this project such as one-hot encoding techinque for categorical data, feature scaling and data spliting into train and test set.
 
 ## Dimensionality Reduction
-This phase provides some unsupervised learning algorithms such as PCA and K-means. In this phase we also create some plots to have a crystal-clear point of what these algorithms can do to our data.
+This phase provides some unsupervised machine learning algorithms such as PCA and K-means. In this phase we also create some plots to have a crystal-clear point of what these algorithms can do to our data.
 
 ## Models Selection
-In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on supervised learning with regression algoritmhs.
+In this phase we evaluate several models so we can obtain the best resutls possible in terms of accuracy. We focus on supervised machine learning regression algoritmhs.
 
 ## Model Deployment
 This section provides the models which had the best performance from the previous step. We utlise the following machine learingn algorithms: RandomForest and XGB.
