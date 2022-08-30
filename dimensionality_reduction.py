@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 
-# This phase provides the dimensionality reduction of the data using PCA and K-means Clustering based 
-# With 3 principal components and 4 clusters based on the results of the pca_clustering_plots module
+# This phase provides the dimensionality reduction of the data using PCA and K-means Clustering
+# with 3 principal components and 4 clusters based on the results of the pca_clustering_plots module
 
 def pca_clustering(df, logger):
     try:
