@@ -10,7 +10,7 @@ from math import sqrt
 from plotting_tools import df
 from model_deployment import best_model
 
-# In this step we apply profiling in our most time-consuming function, without the logger. 
+# In this step we apply profiling in our most time-consuming model, without the logger. 
 
 def best_model(df):
 
