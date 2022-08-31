@@ -10,34 +10,9 @@ from sklearn.linear_model import LinearRegression, Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from math import sqrt
 from plotting_tools import df
-from models_selection import models
 from model_deployment import best_model
 
-# In this step we apply profiling in our most time-consuming functions, without the loggers. 
-
-def models(df):
-
-    X_train, X_test, y_train, y_test = train_test_split(df.drop('rating', axis = 1), df['rating'], test_size = 0.2)
-    scaler = MinMaxScaler()
-    X_train = scaler.fit_transform(X_train)
-    X_test = scaler.transform(X_test)
-        
-    results = {}
-    models = [LinearRegression(),
-              Ridge(),
-              DecisionTreeRegressor(),
-              RandomForestRegressor()]
-    for model in models:
-        fit = model.fit(X_train, y_train)
-        y_pred = fit.predict(X_test)
-        results[fit.__class__.__name__] = [
-            round(r2_score(y_test, y_pred), 2),
-            round(mean_absolute_error(y_test, y_pred), 2),
-            round(mean_squared_error(y_test, y_pred), 2),
-            round(sqrt(mean_squared_error(y_test, y_pred)), 2)]
-    index = ['R squared', 'Mean Absolute Error', 'Mean Squared Error', 'Root Mean Squared Error']
-    results_df = pd.DataFrame(data = results, index = index, columns = list(results.keys()))
-    return results_df
+# In this step we apply profiling in our most time-consuming function, without the logger. 
 
 def best_model(df):
 
@@ -59,16 +34,6 @@ def best_model(df):
     index = ['R squared', 'Mean Absolute Error', 'Mean Squared Error', 'Root Mean Squared Error']
     outcome = pd.DataFrame(data = results, index = index, columns = list(results.keys()))
     return outcome
-
-pr_models = cProfile.Profile()
-pr_models.enable()
-my_result_models = models(df)
-pr_models.disable()
-s_models = io.StringIO()
-ps_models = pstats.Stats(pr_models, stream = s_models).sort_stats('tottime')
-ps_models.print_stats()
-with open('profile_models.txt', 'w+') as f:
-    f.write(s_models.getvalue())
 
 pr_best_model = cProfile.Profile()
 pr_best_model.enable()
