@@ -5,8 +5,7 @@ from sklearn.cluster import KMeans
 from plotting_tools import df
 ```
 
-# This phase presents the graphs that have been produced by the Principal Component Analysis and the 
-# K-means Clustering algorithms in order to keep the optimal number of principal components and clusters respectively
+# This phase presents the graphs that have been produced by the Principal Component Analysis and the K-means Clustering algorithms in order to keep the optimal number of principal components and clusters respectively
 
 - [PCA](#PCA)
 - [K-means Clustering](#K--means-Clustering)
