@@ -21,21 +21,21 @@ It is a big database for students and researchers to apply several algorithms an
 
 + App name: Name of the app (Data type -> object)
 
-+ App Id: Package Name (Data type -> object)
++ App Id: Package name (Data type -> object)
 
 + Category: App category (Data type -> object)
 
 + Rating: Average rating (Data type -> float)
 
-+ Rating Count: Number of rating (Data type -> float)
++ Rating Count: Number of ratings (Data type -> float)
 
-+ Installs: Approximate install count (Data type -> object)
++ Installs: Approximate app install count (Data type -> object)
 
 + Minimum installs: Approximate minimum app install count (Data type -> float)
 
 + Maximmum installs: Approximate maximum app install count (Data type -> integer)
 
-+ Free: Whether app is Free or Paid (Data type -> bool)
++ Free: Whether app is free or paid (Data type -> bool)
 
 + Price: App price (Data type -> float)
 
@@ -63,7 +63,7 @@ It is a big database for students and researchers to apply several algorithms an
 
 + In App Purchases: In-App purchases in app (Data type -> bool)
 
-+ Editors Choice: Whether rated as Editor Choice (Data type -> bool)
++ Editors Choice: Whether rated as editor choice (Data type -> bool)
 
 + Scraped Time: Scraped date-time in GMT (Data type -> object)
 
