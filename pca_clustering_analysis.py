@@ -27,5 +27,3 @@ def pca_clustering(df, logger):
     end = time.time()
     logger.info(f"Execution time of pca_clustering function is: {end - start} seconds")
     return pca_df
-
-
