@@ -31,7 +31,7 @@ rel_imp.T.plot(kind = 'barh', color = 'r')
 plt.xlabel('Variable Importance')
 plt.yticks(fontsize = 11.5, rotation = 45)
 plt.gca().legend_ = None
-plt.savefig('models_selection_plots/Feature Importance based on Rating')
+plt.savefig('models_deployment_plots/Feature Importance based on Rating')
 ```
 ## XGBoost
 
@@ -51,5 +51,5 @@ rel_imp.T.plot(kind = 'barh', color = 'r')
 plt.xlabel('Variable Importance')
 plt.yticks(fontsize = 11.5, rotation = 45)
 plt.gca().legend_ = None
-plt.savefig('models_selection_plots/Feature Importance based on Installs')
+plt.savefig('models_deployment_plots/Feature Importance based on Installs')
 ```
