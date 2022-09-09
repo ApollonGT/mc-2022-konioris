@@ -134,14 +134,14 @@ a = sns.heatmap(topcat.corr(), center = 0, square = True, fmt = '.3f', annot = T
 a.set_xticklabels(a.get_xticklabels(), rotation = 10)
 plt.savefig('eda/multivariate/Correlation of the Numerical Features.png')
 ```
-### Comparison of Rating Between Categories & Add Supported
+### Comparison of Rating Between Categories & Ad Supported
 ```python
 fig, ax = plt.subplots(figsize = [15, 8])
 sns.barplot(x = 'category', y ='rating', data = topcat, palette = 'rainbow', hue  = 'ad_supported')
-ax.set(title = 'Comparison of Rating Between Categories & Add Supported',
+ax.set(title = 'Comparison of Rating Between Categories & Ad Supported',
        xlabel ='', ylabel = 'Rating')
 ax.set_xticklabels(ax.get_xticklabels(), rotation = 10)
-plt.savefig('eda/multivariate/Comparison of Rating Between Categories & Add Supported.png')
+plt.savefig('eda/multivariate/Comparison of Rating Between Categories & Ad Supported.png')
 ```
 ### Comparison of Installs Between Categories & Free Apps
 ```python
